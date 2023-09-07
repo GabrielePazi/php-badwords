@@ -1,6 +1,3 @@
-<?php
-?>
-
 <html lang="en">
 
 <head>
@@ -19,7 +16,7 @@
     <div class="row justify-content-center">
       <div class="col-8">
         <h1 class="my-3">Censura una parola in un testo</h1>
-        <form action="index2.php" method="GET">
+        <form action="index2.php" method="post">
           <div class="my-5">
             <label for="exampleFormControlInput1" class="form-label">Badword</label>
             <input name="badword" class="form-control" id="exampleFormControlInput1" placeholder="Es. 'culo'">

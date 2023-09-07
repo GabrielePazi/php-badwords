@@ -1,7 +1,7 @@
 <?php
 
-$badword = $_GET["badword"];
-$text = $_GET["text"];
+$badword = $_POST["badword"];
+$text = $_POST["text"];
 
 $censoredText = str_replace($badword, "****", $text);
 
